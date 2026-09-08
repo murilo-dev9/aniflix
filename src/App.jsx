@@ -1,10 +1,14 @@
 import styles from "./App.module.css";
-import menu from "./componentes/menu"
+import Menu from "./componentes/menu/menu"
 
 const home = () => {
   return(
-    <div>
+    <div className={styles.main}>
+      <Menu/>
+
       
     </div>
   )
 }
+
+export default home;
