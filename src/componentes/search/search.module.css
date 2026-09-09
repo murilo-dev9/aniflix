@@ -1,0 +1,14 @@
+.main {
+    border: solid 1px black;
+    border-radius: 20px;
+    width: 25%;
+}
+
+input {
+    margin:5px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    height: 100%;
+    width: 95%;
+    text-decoration-color: #fff;
+}

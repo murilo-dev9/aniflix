@@ -1,5 +1,5 @@
 import { GoHomeFill} from "react-icons/go";
-import { FaSearch, FaClipboardList,FaHeart,FaUserCircle } from "react-icons/fa";
+import {FaClipboardList,FaHeart,FaUserCircle } from "react-icons/fa";
 import styles from "./menu.module.css";
 
 
@@ -9,23 +9,20 @@ const Menu =()=>{
         <div className={styles.main}>
         <h1>aniflix</h1>
             <div className={styles.Lroutes}>
-                <GoHomeFill size={30}/>
+                <GoHomeFill size={40} color="white"/>
                 <p>Home</p>
             </div>
+            
             <div className={styles.Lroutes}>
-                <FaSearch size={30}/>
-                <p>Search</p>
-            </div>
-            <div className={styles.Lroutes}>
-                <FaClipboardList size={30}/>
+                <FaClipboardList size={40}/>
                 <p>My List</p>
             </div>
             <div className={styles.Lroutes}>
-                <FaHeart size={30}/>
+                <FaHeart size={40}/>
                 <p>Home</p>
             </div>
             <div className={styles.Lroutes}>
-                <FaUserCircle size={30}/>
+                <FaUserCircle size={40}/>
                 <p>Profile</p>
             </div>
         </div>
