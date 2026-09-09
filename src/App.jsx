@@ -1,23 +1,29 @@
 import styles from "./App.module.css";
 import Menu from "./componentes/menu/menu"
 import Search from "./componentes/search/search"
-
+import Card from "./componentes/card/card"
+import Banner from "./componentes/bannerD/banner"
 const home = () => {
-  return(
+  return (
     <div className={styles.main}>
-      <Menu/>
+      <Menu />
       <div className={styles.inicio}>
         <div className={styles.topBar}>
-            <Search/>
-        </div>
-        <div className={styles.gnr}>
-          dsadas
+          <Search />
         </div>
         <div className={styles.ctlg}>
-            asdsadsa
+          <div className={styles.destaque}>
+            <Banner />
+          </div>
+          <div className={styles.recentes}>
+            <Card />
+          </div>
+          <div className={styles.populares}>
+            <Card />
+          </div>
         </div>
       </div>
-      
+
     </div>
   )
 }

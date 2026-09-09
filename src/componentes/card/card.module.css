@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 14rem;
+    margin:10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: purple;
+}

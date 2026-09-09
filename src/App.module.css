@@ -1,6 +1,8 @@
 .main {
     display: flex;
     flex-direction: row;
+    min-height: 100vh;
+    align-items: stretch;
 }
 
 .inicio {
@@ -8,18 +10,21 @@
     flex-direction: column;
     background-color: aqua;
     width: 100%;
+    flex: 1;
 }
 
 .topBar {
     background-color: red;
-    margin-bottom: 10px;
-    padding:10px
+    padding: 10px
 }
+
 .gnr {
     background-color: red;
-    margin-bottom: 10px;
+
+    height: 5rem;
 }
+
 .ctlg {
     background-color: red;
-    margin-bottom: 10px;
+    height: 100%;
 }
