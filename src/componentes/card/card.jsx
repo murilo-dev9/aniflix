@@ -5,6 +5,7 @@ const Card =()=>{
         <div className={styles.main}>
             <h1>Card</h1>
         </div>
+        
     )
 }
 

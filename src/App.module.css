@@ -1,3 +1,8 @@
+.h1 {
+    color: var(--Roxo_principal);
+    margin-left: 10px;
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -8,23 +13,19 @@
 .inicio {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: var(--Fundo);
     width: 100%;
     flex: 1;
 }
 
 .topBar {
-    background-color: red;
-    padding: 10px
+  padding: 10px
 }
 
 .gnr {
-    background-color: red;
-
     height: 5rem;
 }
 
 .ctlg {
-    background-color: red;
     height: 100%;
 }

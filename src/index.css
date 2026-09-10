@@ -6,6 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+:root{
+  --Fundo: #0F172A;
+  --Sidebar: #111827;
+  --Cards: #1E293B;
+  --Roxo_principal: #8B5CF6;
+  --Azul: #6366F1;
+  --Texto: #F8FAFC;
+  --Texto_secundário: #94A3B8;
+  --Amarelo_notas: #F59E0B;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

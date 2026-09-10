@@ -5,13 +5,37 @@
     justify-content: center;
     width: 15%;
     height: 100vh;
-    background-color: purple;
+    background-color: var(--Sidebar);
     position: sticky;
-  top: 0;
-    }
+    top: 0;
+    border: solid 1px var(--Roxo_principal);
+}
 
 .Lroutes {
     display: flex;
     align-items: center;
+    width: 200px;
     gap: 10px;
+    margin: 2px;
+    padding: 5px;
+    transition: all 0.3s linear;
+    border-radius: 10px;
+}
+
+.Lroutes:hover {
+    background-color: var(--Roxo_principal);
+    color: var(--Cards);
+    cursor: pointer;
+}
+
+p{
+    color: var(--Texto);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.h1{
+    color: var(--Roxo_principal);
+    font-size: 30px;
+    font-weight: 700;
 }
