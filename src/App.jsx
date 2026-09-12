@@ -3,7 +3,10 @@ import Menu from "./componentes/menu/menu"
 import Search from "./componentes/search/search"
 import Card from "./componentes/card/card"
 import Banner from "./componentes/bannerD/banner"
+import ani_api from "./componentes/ani_api/ani_api";
+
 const home = () => {
+  console.log(ani_api.getAnimeById(1));            
   return (
     <div className={styles.main}>
       <Menu />
@@ -23,6 +26,7 @@ const home = () => {
           <h1 className={styles.h1}>Populares</h1>
           <div className={styles.populares}>
             <Card />
+            <img src={ani_api.getAnimeImage(1)} alt="Anime" /> 
           </div>
         </div>
       </div>
