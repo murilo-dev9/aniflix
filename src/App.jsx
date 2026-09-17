@@ -4,9 +4,10 @@ import Search from "./componentes/search/search"
 import Card from "./componentes/card/card"
 import Banner from "./componentes/bannerD/banner"
 import ani_api from "./componentes/ani_api/ani_api";
+import poke_api from "./componentes/ani_api/api_test";
 
 const home = () => {
-  console.log(ani_api.getAnimeById(1));            
+  console.log(poke_api.getComputedStyle(2));            
   return (
     <div className={styles.main}>
       <Menu />
