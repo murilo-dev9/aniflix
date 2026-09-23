@@ -5,6 +5,7 @@ import Card from "./componentes/card/card"
 import Banner from "./componentes/bannerD/banner"
 import ani_api from "./componentes/ani_api/ani_api";
 import poke_api from "./componentes/ani_api/api_test";
+import animeKAi from "./componentes/ani_api/animeKai"
 
 const home = () => {
   console.log(poke_api.getComputedStyle(2));            
